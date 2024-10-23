@@ -7,3 +7,12 @@ console.log('klaus')
 //Al primo click la lampadina si accende e nel bottone compare la scritta "Spegni"
 //Al secondo click la lampadina si spegne e nel bottone compare la scritta "Accendi"
 //e così via...
+const lampElement = document.getElementById('lamp');
+console.log(lampElement)
+const btnElement = document.getElementById('btn');
+console.log(btnElement)
+
+btnElement.addEventListener('click',function() {
+    console.log('ho cliccato su btn')
+
+})
