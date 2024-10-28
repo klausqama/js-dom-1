@@ -15,4 +15,6 @@ console.log(btnElement)
 btnElement.addEventListener('click',function() {
     console.log('ho cliccato su btn')
 
+lampElement.src = 'yellow_lamp.png'
+
 })
